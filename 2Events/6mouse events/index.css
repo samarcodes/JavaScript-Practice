@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+#top-btn {
+    display: block;
+    margin: 32px auto;
+    padding: 8px 12px;
+    font-size: 28px;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+main div {
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    padding: 25px;
+}
+div > h3 {
+    background-color: lightblue;
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 30px 12px;
+}
+div > p {
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0;
+    padding: 25px 16px;
+}
+#over {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 24px;
+}
+#enter {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 24px;
+}
+#move {
+    display: inline-block;
+    border: 1px solid black;
+}

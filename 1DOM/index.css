@@ -1,0 +1,11 @@
+#topbar {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+.content {
+    color: lightcoral;
+}
+.content span {
+    color: black;
+}
